@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6462269C27F882E90060F723 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6462269B27F882E90060F723 /* music.mp3 */; };
 		64810AFB27F6E07100AEAA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64810AFA27F6E07100AEAA93 /* AppDelegate.swift */; };
 		64810AFD27F6E07100AEAA93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64810AFC27F6E07100AEAA93 /* SceneDelegate.swift */; };
 		64810AFF27F6E07100AEAA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64810AFE27F6E07100AEAA93 /* ViewController.swift */; };
 		64810B0227F6E07100AEAA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64810B0027F6E07100AEAA93 /* Main.storyboard */; };
 		64810B0427F6E07100AEAA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64810B0327F6E07100AEAA93 /* Assets.xcassets */; };
 		64810B0727F6E07100AEAA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64810B0527F6E07100AEAA93 /* LaunchScreen.storyboard */; };
+		64810B0F27F6E08900AEAA93 /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64810B0E27F6E08900AEAA93 /* Check.swift */; };
+		64810B1127F6E9F700AEAA93 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64810B1027F6E9F700AEAA93 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6462269B27F882E90060F723 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		64810AF727F6E07100AEAA93 /* wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64810AFA27F6E07100AEAA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64810AFC27F6E07100AEAA93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		64810B0327F6E07100AEAA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64810B0627F6E07100AEAA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64810B0827F6E07100AEAA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64810B0E27F6E08900AEAA93 /* Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check.swift; sourceTree = "<group>"; };
+		64810B1027F6E9F700AEAA93 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		64810AF927F6E07100AEAA93 /* wordle */ = {
 			isa = PBXGroup;
 			children = (
+				6462269B27F882E90060F723 /* music.mp3 */,
+				64810B0E27F6E08900AEAA93 /* Check.swift */,
+				64810B1027F6E9F700AEAA93 /* Question.swift */,
 				64810AFA27F6E07100AEAA93 /* AppDelegate.swift */,
 				64810AFC27F6E07100AEAA93 /* SceneDelegate.swift */,
 				64810AFE27F6E07100AEAA93 /* ViewController.swift */,
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6462269C27F882E90060F723 /* music.mp3 in Resources */,
 				64810B0727F6E07100AEAA93 /* LaunchScreen.storyboard in Resources */,
 				64810B0427F6E07100AEAA93 /* Assets.xcassets in Resources */,
 				64810B0227F6E07100AEAA93 /* Main.storyboard in Resources */,
@@ -138,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64810B1127F6E9F700AEAA93 /* Question.swift in Sources */,
+				64810B0F27F6E08900AEAA93 /* Check.swift in Sources */,
 				64810AFF27F6E07100AEAA93 /* ViewController.swift in Sources */,
 				64810AFB27F6E07100AEAA93 /* AppDelegate.swift in Sources */,
 				64810AFD27F6E07100AEAA93 /* SceneDelegate.swift in Sources */,
